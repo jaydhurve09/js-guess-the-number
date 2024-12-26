@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500;700&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav><h1>Guess the number</h1></nav>
+    <div class="container">
+        <p>Enter a guess between 0 to 100</p>
+        <form action="submit">
+            <input class="number-input" type="number" placeholder="Enter a number" min="0" max="100" required>
+            <div class="buttons">
+                <button class="submit-btn">Submit</button>
+                <button type="button" class="start-game-btn" disabled>Start Game</button>
+            </div>
+        </form>
+        <p class="message"></p>
+        <p class="all-guesses"></p>
+    </div>
+</body>
+</html>

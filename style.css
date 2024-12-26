@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px 16px;
+    background-color: aqua;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.number-input{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    width: 15rem;
+}
+
+.start-game-btn:disabled {
+    cursor: not-allowed;
+}
